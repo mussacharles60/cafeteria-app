@@ -17,9 +17,12 @@
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        position: absolute;
+        position: sticky;
         top: 0;
         padding: 2px 8px;
+        z-index: 10;
+        background: white;
+        box-shadow: -2px 1px 5px 0px rgba(0,0,0,0.36);
 
         .logo-cnt {
             width: 50px;
@@ -67,7 +70,7 @@
         align-items: center;
         flex-shrink: 0;
         position: relative;
-        margin: 60px 0 0 0;
+        margin: 68px 0 0 0;
 
         .left-lay {
             width: 50%;
@@ -102,6 +105,7 @@
             justify-content: flex-start;
             align-items: center;
             position: relative;
+            border-radius: 16px;
 
             .food-img {
                 width: 100%;
@@ -114,6 +118,7 @@
                 padding: 0 8px;
                 object-fit: contain;
                 object-position: center;
+                border-radius: 16px;
             }
         }
     }
